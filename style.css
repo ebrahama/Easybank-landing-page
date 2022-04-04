@@ -22,7 +22,7 @@
 }
 
 
-body{
+body,html{
 
    font-family: 'Public Sans', sans-serif;
    font-size: 18px;
@@ -112,8 +112,9 @@ header button{
 }
 
 .phon1{
-    position: absolute;
-    top: -10%;
+    position:absolute;
+    top: -2px;
+    right: 0;
 
 }
 .textt{   
@@ -191,7 +192,9 @@ background: var(--Very-Light-Gray);
 text-align: center;
 padding-bottom: 25px;
 }
-
+.bottom h1 {
+    padding-top: 17px;
+}
 .bottom a h3:hover{
      opacity: 0.5;
 }
@@ -209,6 +212,10 @@ padding-bottom: 25px;
 }
 .cardsb p,h3,a{
 padding-left: 20px;
+}
+.cardsb h3{
+  padding-bottom: 17px;
+  font-weight: 500;
 }
 .cardsb img{
   width: 100%;
@@ -304,6 +311,7 @@ footer a{
        .close{
            display: none;
        }
+       
        header .req{
          display: block;
          padding: 9px 15px;
@@ -322,6 +330,8 @@ footer a{
            font-weight: 300;
            font-size: 15px;
            color: var(--Grayish-Blue);
+           transform: translateX(0);
+
        }
        .menu li:hover{
            color: black;
@@ -332,7 +342,7 @@ footer a{
            padding-bottom: 0px;
            padding: 0px 10px ;
        }
-
+    
          /*  top  */
          .top{
          height: 660px;
